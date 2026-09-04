@@ -1,0 +1,12 @@
+{
+  "name": "Session Warm Start",
+  "version": "1.0.0",
+  "description": "Reads last session context at the start of each conversation to maintain continuity",
+  "when": {
+    "type": "promptSubmit"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Before responding, check if tracking/last-session-context.md exists. If it does, silently read it to understand what was worked on previously. Use this context to inform your response but don't announce that you read it unless the user asks 'what were we working on?' or similar. If the file doesn't exist or is empty, proceed normally."
+  }
+}

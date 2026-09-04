@@ -1,0 +1,12 @@
+{
+  "name": "End of Session",
+  "version": "1.0.0",
+  "description": "Manually triggered to save current session context for next time",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "The user wants to end this session. Summarize what was accomplished, list open items, note decisions, and write everything to tracking/last-session-context.md. Keep it concise and actionable — only record 'where we stopped + where to pick up next', do not duplicate progress details that already live in the training log."
+  }
+}

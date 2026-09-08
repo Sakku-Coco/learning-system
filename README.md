@@ -2,7 +2,7 @@
 
 > Turn a coding agent into a disciplined personal training partner: error-collection-driven drills, evidence-based skill calibration, layered reviewer personas, and anti-forgetting mechanics. No app, no database — just Markdown rules, a config file, and agent hooks.
 
-**EN summary**: This repo is a framework for running long-term skill training inside an AI-agent IDE (Kiro, Claude Code, Cursor, or any tool that supports custom rule files). The agent follows a written "constitution" (the **core**), while everything personal — subjects, pass thresholds, cadence, known weak patterns — lives in a single **learner config**. Half of the mechanisms exist to fix the three chronic failures of using AI for learning: it forgets you between sessions, it flatters you, and it makes things up. An anonymized real-world configuration that ran for 60+ days is included under `examples/`.
+**EN summary**: This repo is a framework for running long-term skill training inside an AI-agent IDE (Kiro, Claude Code, Cursor, or any tool that supports custom rule files). The agent follows a written "constitution" (the **core**), while everything personal — subjects, pass thresholds, cadence, known weak patterns — lives in a single **learner config**. Half of the mechanisms exist to fix the three chronic failures of using AI for learning: it forgets you between sessions, it flatters you, and it makes things up. 
 
 ---
 

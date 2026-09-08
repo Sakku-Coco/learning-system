@@ -55,8 +55,6 @@
 │   │   └── communication-mentor.md← 🎓沟通导师：6维度评分+两轮审视（管语言层）
 │   └── hooks/                     ← 3个agent hooks（热启动/存档/检查关卡）
 ├── templates/                     ← tracking 数据文件的空模板（7个）
-├── examples/
-│   └── data-analyst-career-switch/← 匿名化真实配置（跑了60+天）+ 机制演化时间线
 └── docs/
     ├── design-philosophy.md       ← 每个机制治什么病 + 试过但删掉的反模式
     └── getting-started.md         ← 三步搭建指南

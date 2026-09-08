@@ -30,7 +30,7 @@ your-workspace/
 
 ## 第 2 步：填配置
 
-打开 `tracking/learner-config.md`，8 个小节逐个填。参照 `examples/data-analyst-career-switch/learner-config.md` 看一份填好的真实样例。
+打开 `tracking/learner-config.md`，8 个小节逐个填。
 
 填写建议：
 - **第2节科目**：先只放 1-2 个核心科目。科目多了前两周会顾此失彼，跑顺后再加
